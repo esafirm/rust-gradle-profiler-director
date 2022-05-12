@@ -1,0 +1,27 @@
+
+assembleRelease {
+    title = "assembleRelease-Xmx:2-Xms:2"
+    tasks = ["assembleRelease"]
+    jvm-args = ["-Xmx2g", "-Xmx2g"]
+}
+
+
+assembleRelease {
+    title = "assembleRelease-Xmx:4-Xms:2"
+    tasks = ["assembleRelease"]
+    jvm-args = ["-Xmx4g", "-Xmx2g"]
+}
+
+
+assembleRelease {
+    title = "assembleRelease-Xmx:6-Xms:2"
+    tasks = ["assembleRelease"]
+    jvm-args = ["-Xmx6g", "-Xmx2g"]
+}
+
+
+assembleRelease {
+    title = "assembleRelease-Xmx:8-Xms:2"
+    tasks = ["assembleRelease"]
+    jvm-args = ["-Xmx8g", "-Xmx2g"]
+}
